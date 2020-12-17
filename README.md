@@ -4,8 +4,8 @@
 
 Implemented methods:
 
-- [Batch Gradient Descent][2]
-- [Adadelta][1] 
+- Batch Gradient Descent
+- Adadelta
 
 Approximation function: $ F(\theta, x): \theta_1 + \theta_2x + \theta_3x^2$  
 
@@ -19,6 +19,8 @@ Further details could be found in `paper.pdf`
 - `matplotlib`
 
 ## References
+1. Matthew D. Zeiler, [ADADELTA: AN ADAPTIVE LEARNING RATE METHOD][1].
+2. Sebastian Ruder, [An overview of gradient descent optimization algorithms][2].
 
 [1]: https://arxiv.org/pdf/1212.5701.pdf	"ADADELTA: AN ADAPTIVE LEARNING RATE METHOD"
 [2]: https://ruder.io/optimizing-gradient-descent/	"An overview of gradient descent optimization algorithms"
