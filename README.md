@@ -7,9 +7,9 @@ Implemented methods:
 - Batch Gradient Descent
 - Adadelta
 
-Approximation function: $ F(\theta, x): \theta_1 + \theta_2x + \theta_3x^2$  
+Approximation function: F(w, x): w_1 + w_2*x + w_3*x^2  
 
-Loss function (MSE): $ Q(\theta) = \frac{1}{l} \sum_{i=1}^{l}\left [ f(\theta, x_i) - y_i\right]^2 = \frac{1}{l} \sum_{i=1}^{l} L(\theta, x_i, y_i) \rightarrow \min_{\theta \in R^n}$
+Loss function: __MSE__
 
 Further details could be found in `paper.pdf`
 
