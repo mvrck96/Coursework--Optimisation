@@ -7,9 +7,7 @@ Implemented methods:
 - Batch Gradient Descent
 - Adadelta
 
-- <img src="https://latex.codecogs.com/gif.latex?F(w, x): w_1 + w_2*x + w_3*x^2" /> 
-
-Function to approximate: $`F(w, x): w_1 + w_2*x + w_3*x^2`$
+Function to approximate: F(w, x): w_1 + w_2*x + w_3*x^2
 
 Loss function: __MSE__
 
